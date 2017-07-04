@@ -22,7 +22,7 @@ this page is accessable to the class representatives
 The above is the screenshot of professor dashboard.
 this page is accessable to the admin 
 
-![newpost](/screenshots/newpost.jpg?raw=true "newpost
+![newpost](/screenshots/newpost.jpg?raw=true "newpost")
 The above is the screenshot of the page "new post".
 this page is accessable only to admin and CR.
 Using this page, they can create new post.
