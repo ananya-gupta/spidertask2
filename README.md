@@ -1,13 +1,21 @@
 # spidertask2
+
 online notice board
 
 used XAMPP.
+Can be downloaded from - https://www.apachefriends.org/download.html
 language used for backend -PHP.
 
 servername = "localhost";
 username = "ananya";
 password = "1234";
 datasasename = "projectdb";
+
+how to login for the first time-
+email-ag9111998@gmail.com
+password-ananyagupta
+access level is set to prof.
+
 
 table used for storing all the registration = "registration"
 ![registrationtable](/screenshots/registrationtable.jpg?raw=true "registrationtable")
