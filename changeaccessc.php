@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+$accesslevel=$_SESSION['sess_accesslevel'];
 if(!isset($_SESSION['sess_username'])){
 	header('Location:  login.php');};
 include("config.php");
@@ -14,7 +14,7 @@ echo $access;
   echo $accesslevel;
   
 }*/
-if(isset($access)){
+if(isset($access) && $accesslevel=='prof'){
 $sql1="UPDATE `projectdb`.`registration` SET accesslevel='".$access."' WHERE id=".$id;
 $result=mysql_query($sql1);
 
